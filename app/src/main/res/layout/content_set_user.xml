@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/background"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:paddingBottom="20dip"
+        android:paddingTop="20dip"
+        android:text="修改信息"
+        />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="25px"
+        android:layout_gravity="center_horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/id_name"
+            android:textColor="#FFFFFF"
+            android:layout_gravity="center_vertical"/>
+        <EditText
+            android:id="@+id/wsetname"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:text="输入旧密码"
+            android:layout_gravity="center_horizontal"
+            />
+        <EditText
+            android:id="@+id/osetpassword"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:singleLine="true"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:text="输入新密码"
+            android:layout_gravity="center_horizontal"
+            />
+        <EditText
+            android:id="@+id/nsetpassword"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:singleLine="true"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:text="再输新密码"
+            android:layout_gravity="center_horizontal"
+            />
+        <EditText
+            android:id="@+id/nsetpassword2"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:singleLine="true"
+            />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:paddingTop="20dip"
+        android:paddingBottom="20dip"
+        android:paddingRight="20dip"
+        android:orientation="horizontal"
+        android:gravity="right"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/setconfirm"
+            android:text="确认"
+            style="@style/AppTheme"
+            android:minWidth="70dip"
+            android:background="#882266AA"
+            />
+
+        <Button
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/setcancel"
+            android:text="取消"
+            style="@style/AppTheme"
+            android:minWidth="70dip"
+            android:background="#882266AA"
+            />
+
+    </LinearLayout>
+
+
+</LinearLayout>

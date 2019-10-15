@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">点餐系统</string>
+    <string name="sign_in">系统登录</string>
+    <string name="id_name">输入账号：</string>
+    <string name="id_passwd">输入密码：</string>
+    <string name="title_activity_main2">点餐系统线性布局界面</string>
+    <string name="title_activity_login_window">LoginWindow</string>
+    <string name="DSTitle">DsTitle</string>
+    <string name="tvPwd">tvPwd</string>
+    <string name="etPwd">etPwd</string>
+    <string name="btnLogin">登录</string>
+    <string name="btnReg">注册</string>
+    <string name="title_activity_slect_menu_relative">SlectMenuRelative</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="title_activity_sign_in">SignIn</string>
+    <string name="reg_note">NOTE</string>
+    <string name="reg_confirm">确认密码：</string>
+    <string name="reg_tureName">真实姓名：</string>
+    <string name="reg_age">年龄：</string>
+    <string name="reg_hint_age">年龄</string>
+    <string name="reg_sex">性别：</string>
+    <string name="title_activity_main_table">点餐系统</string>
+    <string name="title_activity_main3">Main3Activity</string>
+    <string name="title_activity_dish_list">DishListActivity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_help">Help</string>
+    <string name="title_activity_dish_setting">DishSetting</string>
+    <string name="title_activity_ordered">OrderedActivity</string>
+    <string name="title_activity_set_user">SetUserActivity</string>
+</resources>
